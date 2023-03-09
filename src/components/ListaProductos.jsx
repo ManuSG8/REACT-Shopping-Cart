@@ -8,7 +8,7 @@ export const ListaProductos = ({title, price, src, id, addToCart}) => {
           <div className="card-body">
               <h5 className="card-title">{title}</h5>
               <p className="card-text">{price}</p>
-              <a href="#" alt='' className="btn btn-dark" id={id} onClick={addToCart}>Comprar</a>
+              <button className="btn btn-dark" id={id} onClick={addToCart}>Comprar</button>
           </div>
       </div>
     </div>
