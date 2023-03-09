@@ -49,7 +49,7 @@ function App() {
 						return item
 					}
 				})
-				.filter(Boolean)
+				.filter(Boolean) // Devuelve los elementos que no son nulos
 		)
 	}
 
